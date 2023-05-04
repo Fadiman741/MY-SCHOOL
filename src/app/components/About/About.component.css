@@ -30,6 +30,10 @@
 .container {
     padding: 0 16px;
 }
+.container h2 {
+    color: rgb(35, 164, 173);
+    
+}
 
 .about1 {
     display: flex;

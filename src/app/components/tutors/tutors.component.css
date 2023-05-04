@@ -73,7 +73,7 @@
 
 .tutor-subject {
     width: 100%;
-    background-color: rgb(3, 62, 66);
+    background-color: rgb(35, 164, 173);
     opacity: 0.9;
 }
 
@@ -83,8 +83,9 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-.buttons h1 {
-    color: rgb(3, 62, 66);
+.buttons h2 {
+    color: rgb(35, 164, 173);
+    font-weight: 700;
 }
 
 .buttons button {
@@ -99,7 +100,7 @@
 }
 
 .buttons button:hover {
-    background-color: rgb(3, 62, 66);
+    background-color: rgb(35, 164, 173);
     color: #eee;
     font-weight: 800;
 }
@@ -149,7 +150,7 @@
 
 .get-tutor button:hover {
     border: 1px solid rgb(35, 164, 173);
-    background-color: rgb(3, 62, 66);
+    background-color: rgb(20, 95, 100);
     color: aliceblue;
 }
 
