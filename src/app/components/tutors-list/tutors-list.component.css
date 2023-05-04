@@ -1,0 +1,59 @@
+.tutor-card{
+        margin:5% 2% 2% 2%;
+        border-radius: 20px;
+     
+        width:350px;
+        height:600px;
+        background-color:white;
+        box-shadow: 10px 2px 50px 10px #ddd;
+}
+.cover-picture{
+        width: 90%;
+        height: 300px;
+        background-color: rgb(35, 164, 173);
+        margin:-10% 5% 5% 5%;
+        border-radius: 20px;
+        text-align: center;
+      
+}
+.profile-picture{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: white;
+        margin: auto;
+   
+  
+}
+.cover-picture h3,p{
+        color:#fff;
+        margin-top:15px;
+}
+.cover-picture h3{
+        font-weight: 800;
+}
+.contact-details{
+        margin-top: 2px;
+}
+.contact-details b{
+        font-weight: 800;
+        color:rgb(35, 164, 173) ;
+}
+.contact-details p{
+        color:#aaa
+
+}
+.social-links button{
+        width: 94%;
+        background-color:rgb(35, 164, 173) ;
+        height: 70px;
+        margin:0% 3% 3% 3%;
+        border-radius: 20px;
+        border: none;
+        font-weight: 800;
+        color: #fff;
+}
+.social-links button:hover{
+
+        background-color:rgb(12, 61, 65) ;
+}

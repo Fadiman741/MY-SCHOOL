@@ -1,0 +1,64 @@
+.intro-content {
+    text-align: center;
+    height: 70vh;
+    margin: 10px;
+    opacity: 1;
+    background-image: linear-gradient(45deg, rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75)), url('https://media.istockphoto.com/id/1000887536/photo/back-view-of-elementary-students-raising-their-arms-on-a-class.jpg?s=612x612&w=0&k=20&c=i0PBNmY4nSgOhHyy9AU5OAiJrOsHk7f7jLcNkO6CApE=');
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-content h1 {
+    padding-top: 200px;
+    color: #fff;
+    font-weight: 800;
+    max-width: 500px;
+    margin: auto;
+}
+
+.intro-content p {
+    padding-top: 30px;
+    color: #fff;
+}
+
+.intro-charts {
+    /* background-image: url('https://media.istockphoto.com/id/975763512/vector/beige-seamless-textured-pattern.jpg?s=612x612&w=0&k=20&c=WRhFZcIGnAw65PFeLXMNLwe7f6D-KzdDrwziF0ub4ng='); */
+    padding: 10px;
+    height: 26vh;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: -18vh;
+    position: relative;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div1 p {
+    padding-top: 20px;
+    color: #fff;
+}
+
+.div2 h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+}
+
+.div3 p {
+    padding-top: 20px;
+    color: #fff;
+}
+
+.bottom {
+    padding: 20px;
+    margin: 1%;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(35, 164, 173);
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {}

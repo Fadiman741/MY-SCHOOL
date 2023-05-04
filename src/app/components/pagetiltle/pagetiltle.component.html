@@ -1,0 +1,19 @@
+<div class="bg-light" style="height:60px ;margin:auto;border:1px solid #eee">
+    <div style="max-width: 1250px;font-size: small;margin:auto;padding:18px">
+        <div class="page-title-box d-flex  justify-content-between ">
+            <div>
+                <h5>{{title}}</h5>
+            </div>
+            <div class="page-title-right">
+                <ol class="breadcrumb">
+                    <ng-container *ngFor="let item of breadcrumbItems">
+                        <li class="breadcrumb-item" *ngIf="!item.active"><a>{{ item.label }} <sup *ngIf="preferenceText" class="text-{{state}}">{{preferenceText}}</sup></a>
+                        </li>
+                        <li class="breadcrumb-item " *ngIf="item.active">{{ item.label }}
+                        </li>
+                    </ng-container>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>

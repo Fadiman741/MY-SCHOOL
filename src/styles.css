@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    /* font-family: Poppins, sans-serif; */
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.7em;
+    color: #413f3f;
+}

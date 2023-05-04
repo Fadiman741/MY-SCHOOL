@@ -1,0 +1,10 @@
+.breadcrumb li,
+a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+h5 {
+    color: #aaa;
+    font-weight: 400;
+}

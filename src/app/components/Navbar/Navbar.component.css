@@ -1,0 +1,17 @@
+* {
+    color: #6e6b6b;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown-item {
+    font-size: small;
+    color: #6e6b6b;
+}
+
+h4 {
+    padding: 10px;
+}

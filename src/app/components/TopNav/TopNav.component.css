@@ -1,0 +1,41 @@
+.topNav {
+    height: 30px;
+    background-color:rgb(35, 164, 173);
+    color: aliceblue;
+}
+
+.topNav ul {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topNav li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    list-style-type: none;
+}
+
+.fa {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
