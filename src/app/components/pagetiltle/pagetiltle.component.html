@@ -1,10 +1,19 @@
 <div class="bg-light" style="height:60px ;margin:auto;border:1px solid #eee">
     <div style="max-width: 1250px;font-size: small;margin:auto;padding:18px">
         <div class="page-title-box d-flex  justify-content-between ">
-            <div>
-                <h5>{{title}}</h5>
+            <div style="display: flex;">
+                <!-- <h5>{{title}}</h5> -->
+                <button type="button" class="btn btn-primary">
+                    Inbox <span class="badge ">9</span>
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Notifications <span class="badge badge-light">4</span>
+                  </button>
+                <!-- <a><p class="icons"><fa-icon [icon]="faEnvelope"></fa-icon></p></a>
+                <a><p class="icons"><fa-icon [icon]="faBell"></fa-icon></p></a> -->
             </div>
-            <div class="page-title-right">
+            <div class="page-title-right" >
+              
                 <ol class="breadcrumb">
                     <ng-container *ngFor="let item of breadcrumbItems">
                         <li class="breadcrumb-item" *ngIf="!item.active"><a>{{ item.label }} <sup *ngIf="preferenceText" class="text-{{state}}">{{preferenceText}}</sup></a>

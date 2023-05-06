@@ -1,4 +1,5 @@
 import { Component, OnInit ,Input} from '@angular/core';
+import { faLayerGroup,faEnvelope,faBell} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-pagetiltle',
@@ -12,6 +13,12 @@ export class PagetiltleComponent implements OnInit {
   @Input() preference: any;
   @Input() preferenceText: any;
   @Input() state: any;
+
+
+  faLayerGroup=faLayerGroup;
+  faEnvelope=faEnvelope;
+  faBell=faBell;
+
 
   constructor() { }
 

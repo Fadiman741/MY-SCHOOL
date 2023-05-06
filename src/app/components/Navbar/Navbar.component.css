@@ -15,3 +15,12 @@
 h4 {
     padding: 10px;
 }
+.login button{
+    padding:6px;
+    background-color: rgb(35, 164, 173);
+    border-radius: 17px;
+    border: none;
+    width:110px;
+    color: #fff;
+    font-weight: 400;
+}

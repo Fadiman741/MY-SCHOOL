@@ -6,13 +6,15 @@
     background-image: linear-gradient(45deg, rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75)), url('https://media.istockphoto.com/id/1000887536/photo/back-view-of-elementary-students-raising-their-arms-on-a-class.jpg?s=612x612&w=0&k=20&c=i0PBNmY4nSgOhHyy9AU5OAiJrOsHk7f7jLcNkO6CApE=');
     background-position: center;
     background-size: cover;
+    border-radius: 50px;
 }
 
 .intro-content h1 {
-    padding-top: 200px;
+    padding-top: 130px;
     color: #fff;
     font-weight: 800;
-    max-width: 500px;
+    font-size: 60px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -49,6 +51,8 @@
 .div3 p {
     padding-top: 20px;
     color: #fff;
+    
+
 }
 
 .bottom {
@@ -56,8 +60,9 @@
     margin: 1%;
     width: 30%;
     height: 100%;
+    border-radius: 30px;
     background-color: rgb(35, 164, 173);
-    border-radius: 5px;
+
     text-align: center;
 }
 

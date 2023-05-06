@@ -6,6 +6,7 @@
 
 .card {
     border: 1px solid #ddd;
+    border-radius: 10px;
 }
 
 .about-section {
@@ -31,6 +32,9 @@
     padding: 0 16px;
 }
 .container h2 {
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: large;
     color: rgb(35, 164, 173);
     
 }
@@ -74,6 +78,7 @@
     text-align: center;
     cursor: pointer;
     width: 100%;
+    border-radius: 10px;
 }
 
 .button:hover {

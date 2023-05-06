@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand  navbar" style="max-width: 1250px;font-size: small;margin:auto">
         <div class="container-fluid ">
             <a class="navbar-brand" routerLink="">
-                <h4 style="font-weight: 800;">MY SCHOOL</h4>
+                <h4 style="font-weight: 800;color: rgb(35, 164, 173);">MY SCHOOL</h4>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
                         <a class="nav-link" routerLink="announcement">ANNOUNCEMENTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="tutor">TUTORS</a>
+                        <a class="nav-link" routerLink="tutor">TUTORING</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">GRADE 10</a>
@@ -47,6 +47,12 @@
                             <li><a class="dropdown-item" routerLink="grade/12/physicalscience">PHYSICAL SCIENCES</a></li>
                         </ul>
                     </li>
+                    <li class="login">
+                        <button (click)="openModal()">LogIn / SignUp</button>
+                    </li>
+                    <!-- <li class="login">
+                        <button>SignUp</button>
+                    </li> -->
                 </ul>
             </div>
         </div>

@@ -27,8 +27,8 @@
 .tutor2 {
     width: 35%;
     height: 100%;
-    background-color: rgb(3, 62, 66);
-    opacity: 0.7;
+    background-color: rgb(35, 164, 173);
+    opacity: 0.8;
     text-align: center;
     padding-top: 10%;
 }
@@ -41,14 +41,14 @@
     border-radius: 25px;
     border: none;
     margin-top: 5%;
-    color: aliceblue;
-    background-color: rgb(35, 164, 173);
+    color: #fff;
+    background-color: rgb(11, 133, 142);
 }
 
 .tutor2 button:hover {
     text-align: center;
     background-color: rgb(3, 43, 46);
-    border: 1px solid rgb(35, 164, 173);
+    /* border: 1px solid rgb(35, 164, 173); */
 }
 
 .tutor2 h1 {
@@ -78,9 +78,10 @@
 }
 
 .tutor-subject h1 {
-    color: #eee;
+    color: #fff;
     text-align: center;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
 }
 
 .buttons h2 {
@@ -108,7 +109,7 @@
 .become-tutor {
     text-align: center;
     width: 30%;
-    background-color: rgb(3, 62, 66);
+    background-color: rgb(11, 133, 142);
     border: 1px solid rgb(35, 164, 173);
     border-radius: 30px;
     margin-top: 3%;
@@ -119,7 +120,7 @@
 .get-tutor {
     text-align: center;
     width: 30%;
-    background-color: rgb(3, 62, 66);
+    background-color: rgb(11, 133, 142);
     border: 1px solid rgb(35, 164, 173);
     border-radius: 30px;
     margin-top: 3%;

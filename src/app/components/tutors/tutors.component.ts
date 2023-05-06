@@ -16,7 +16,7 @@ export class TutorsComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit() {
-    this.breadCrumbItems = [{ label: 'Home' }, { label: 'Tutor', active: true }];
+    this.breadCrumbItems = [{ label: 'Home' }, { label: 'Tutoring', active: true }];
 
   }
   openTutors(){

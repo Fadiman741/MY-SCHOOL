@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {AppRoutingModule} from './components-routing.module';
 import { GradesModule } from './grades/grades.module';
+import {ModalsModule} from './modals/modals.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome' ;
 
 import {AnnouncementsComponent} from './announcements/announcements.component';
 import {NavbarComponent} from './Navbar/Navbar.component';
@@ -19,6 +21,8 @@ import {TutorlistComponent} from './tutors-list/tutors-list.component';
     FlexLayoutModule,
     AppRoutingModule,
     GradesModule,
+    ModalsModule,
+    FontAwesomeModule
   ],
   declarations: [
     NavbarComponent,
