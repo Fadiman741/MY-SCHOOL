@@ -1,5 +1,7 @@
 import { Component, OnInit,ViewChild } from '@angular/core';
 import { SignupComponent } from '../modals/signup/signup.component';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-Navbar',
@@ -8,11 +10,14 @@ import { SignupComponent } from '../modals/signup/signup.component';
 })
 export class NavbarComponent implements OnInit {
  // @ViewChild('modal', {static: false}) modal: SignupComponent;
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {
   }
   openModal() {
   //  this.modal.open();
+  }
+  openAuth(){
+    this.router.navigate(['/auth']);
   }
 }

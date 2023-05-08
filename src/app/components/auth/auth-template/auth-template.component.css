@@ -1,0 +1,33 @@
+.left{
+        width:40%;
+        background-color: #eee;
+        margin-left: 1%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        background-image: linear-gradient(45deg, rgba(196, 23, 23, 0.75), rgba(40, 126, 179, 0.75)), url('https://media.istockphoto.com/id/1000887536/photo/back-view-of-elementary-students-raising-their-arms-on-a-class.jpg?s=612x612&w=0&k=20&c=i0PBNmY4nSgOhHyy9AU5OAiJrOsHk7f7jLcNkO6CApE=');
+        background-position: center;
+        background-size: cover;
+
+}
+.right{
+        width:60%;
+        background-color: rgb(35, 164, 173);
+        border-radius: 50px;
+        border: none;
+
+}
+button{
+        width:50%;
+        border: none;
+        border-right: 1px solid #ddd;
+        padding: 4px;
+        cursor: pointer;
+        color: #302e2e;
+        /* border-top-left-radius: 10px; */
+}
+button:hover{
+background-color:rgb(35, 164, 173);
+border:1px solid #eee;
+}

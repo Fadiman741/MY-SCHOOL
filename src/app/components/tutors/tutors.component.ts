@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
+import {faChalkboardUser,faBookOpenReader } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-tutors',
@@ -9,9 +9,11 @@ import { Router } from '@angular/router';
 })
 export class TutorsComponent implements OnInit {
 
-
-
   breadCrumbItems: Array<{}> = [];
+
+  faChalkboardUser=faChalkboardUser;
+  faBookOpenReader=faBookOpenReader;
+
 
   constructor(private router:Router) { }
 

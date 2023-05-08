@@ -1,0 +1,31 @@
+input{
+        width:100%;
+        max-width: 500px;
+        margin-right:5%; 
+        margin-bottom: 3%;
+        padding-top:7px;
+        padding-bottom:7px;
+        padding-left: 15px;
+        border: none;
+        border-radius: 10px;
+}
+form{
+        margin:5%
+}
+label{
+        color: #fff;
+        font-weight: 400;
+}
+span{
+        text-align: right;
+        color: blue;
+        font-size: small;
+
+}
+.login-btn input{
+        background-color: rgb(20, 95, 100) ;
+        color: #fff;
+}
+.sign-up {
+        color: #fff;
+}

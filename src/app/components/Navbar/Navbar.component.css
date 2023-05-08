@@ -17,10 +17,16 @@ h4 {
 }
 .login button{
     padding:6px;
-    background-color: rgb(35, 164, 173);
+    background-color: #fff;
     border-radius: 17px;
-    border: none;
+    border: 1px solid rgb(35, 164, 173);
     width:110px;
-    color: #fff;
+    color: rgb(35, 164, 173);
     font-weight: 400;
+}
+.login button:hover{
+
+    background-color: rgb(35, 164, 173);
+    color:white;
+
 }

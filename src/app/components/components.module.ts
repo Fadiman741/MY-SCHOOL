@@ -4,6 +4,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {AppRoutingModule} from './components-routing.module';
 import { GradesModule } from './grades/grades.module';
 import {ModalsModule} from './modals/modals.module';
+import { AuthModule} from './auth/auth.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome' ;
 
 import {AnnouncementsComponent} from './announcements/announcements.component';
@@ -14,6 +15,7 @@ import {HomepageComponent} from './homepage/homepage.component';
 import {AboutComponent} from './About/About.component';
 import {TutorsComponent} from "./tutors/tutors.component";
 import {TutorlistComponent} from './tutors-list/tutors-list.component';
+import {PageNotfoundComponent} from './page-notfound/page-notfound.component';
 
 @NgModule({
   imports: [
@@ -22,6 +24,7 @@ import {TutorlistComponent} from './tutors-list/tutors-list.component';
     AppRoutingModule,
     GradesModule,
     ModalsModule,
+    AuthModule,
     FontAwesomeModule
   ],
   declarations: [
@@ -32,8 +35,9 @@ import {TutorlistComponent} from './tutors-list/tutors-list.component';
     TopNavComponent,
     PagetiltleComponent,
     TutorsComponent,
-    TutorlistComponent
+    TutorlistComponent,
+    PageNotfoundComponent
   ],
-  exports:[NavbarComponent,HomepageComponent,AboutComponent,TopNavComponent,PagetiltleComponent,TutorsComponent,TutorlistComponent]
+  exports:[NavbarComponent,HomepageComponent,AboutComponent,TopNavComponent,PagetiltleComponent,TutorsComponent,TutorlistComponent,PageNotfoundComponent]
 })
 export class ComponentsModule { }
