@@ -4,9 +4,13 @@
     margin-bottom: 16px;
 }
 
+
 .card {
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 4px;
+    background-color:rgb(35, 164, 173) ;
+    padding-bottom: 8px;
+
 }
 
 .about-section {
@@ -30,6 +34,15 @@
 
 .container {
     padding: 0 16px;
+    background-color:#fff ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    width: 95%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
 }
 .container h2 {
     padding-top: 20px;
@@ -91,4 +104,6 @@
         width: 100%;
         display: block;
     }
+
+    
 }
