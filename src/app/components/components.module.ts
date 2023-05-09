@@ -16,6 +16,7 @@ import {AboutComponent} from './About/About.component';
 import {TutorsComponent} from "./tutors/tutors.component";
 import {TutorlistComponent} from './tutors-list/tutors-list.component';
 import {PageNotfoundComponent} from './page-notfound/page-notfound.component';
+import {DiscusionForumComponent} from './discusion-forum/discusion-forum.component';
 
 @NgModule({
   imports: [
@@ -36,8 +37,9 @@ import {PageNotfoundComponent} from './page-notfound/page-notfound.component';
     PagetiltleComponent,
     TutorsComponent,
     TutorlistComponent,
-    PageNotfoundComponent
+    PageNotfoundComponent,
+    DiscusionForumComponent
   ],
-  exports:[NavbarComponent,HomepageComponent,AboutComponent,TopNavComponent,PagetiltleComponent,TutorsComponent,TutorlistComponent,PageNotfoundComponent]
+  exports:[NavbarComponent,HomepageComponent,AboutComponent,TopNavComponent,PagetiltleComponent,TutorsComponent,TutorlistComponent,PageNotfoundComponent,DiscusionForumComponent]
 })
 export class ComponentsModule { }

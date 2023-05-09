@@ -1,7 +1,10 @@
 * {
     color: #6e6b6b;
 }
-
+fa-icon{
+    font-size: 15px;
+   
+}
 .navbar-nav {
     display: flex;
     justify-content: flex-end;

@@ -11,6 +11,8 @@ import {AuthTemplateComponent} from './auth-template/auth-template.component';
     CommonModule,
     AuthRoutingModule
   ],
-  declarations: [SignupComponent,LoginComponent,AuthTemplateComponent]
+  declarations: [SignupComponent,LoginComponent,AuthTemplateComponent],
+  exports:[SignupComponent,LoginComponent,AuthTemplateComponent]
+
 })
 export class AuthModule { }

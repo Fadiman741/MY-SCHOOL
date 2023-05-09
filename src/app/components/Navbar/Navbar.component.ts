@@ -1,6 +1,7 @@
 import { Component, OnInit,ViewChild } from '@angular/core';
 import { SignupComponent } from '../modals/signup/signup.component';
 import { Router } from '@angular/router';
+import { faUser} from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -9,6 +10,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./Navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+
+  
+  faUser=faUser;
+
+
  // @ViewChild('modal', {static: false}) modal: SignupComponent;
   constructor(private router:Router) { }
 
