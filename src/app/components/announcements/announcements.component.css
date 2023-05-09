@@ -9,15 +9,29 @@
     max-width: 700px;
     border: 1px solid #eee;
     border-radius: 5px;
-}
-
-.details {
     display: flex;
     justify-content: flex-start;
 }
 
+.details {
+
+    width:30%;
+}
+.details01 {
+    width:70%
+}
+
 .details2 {
     padding-left: 10px;
+}
+.details2 p{
+    font-size: small;
+    -webkit-line-clamp: 5;
+        display: -webkit-box;
+        line-height: 1.65;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis
 }
 .details2 h4{
     color:rgb(35, 164, 173)
