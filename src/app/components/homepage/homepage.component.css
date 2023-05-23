@@ -62,7 +62,7 @@
     height: 100%;
     border-radius: 30px;
     background-color: rgb(35, 164, 173);
-
+    align-content: center;
     text-align: center;
 }
 

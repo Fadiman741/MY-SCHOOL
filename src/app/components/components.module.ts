@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {AppRoutingModule} from './components-routing.module';
 import { GradesModule } from './grades/grades.module';
-import {ModalsModule} from './modals/modals.module';
+
 import { AuthModule} from './auth/auth.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome' ;
 
@@ -24,7 +24,7 @@ import {DiscusionForumComponent} from './discusion-forum/discusion-forum.compone
     FlexLayoutModule,
     AppRoutingModule,
     GradesModule,
-    ModalsModule,
+
     AuthModule,
     FontAwesomeModule
   ],

@@ -62,3 +62,6 @@ hr {
 .reaction span {
     padding-right: 5px;
 }
+.limitTextHeight {
+    height: 105px;
+    overflow: hidden}

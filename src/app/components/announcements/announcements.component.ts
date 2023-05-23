@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 export class AnnouncementsComponent implements OnInit {
 
   breadCrumbItems: Array<{}> = [];
+  isReadMore: true = true;
 
   constructor() { }
 
@@ -14,4 +15,7 @@ export class AnnouncementsComponent implements OnInit {
     this.breadCrumbItems = [{ label: 'Home' }, { label: 'Annoucement', active: true }];
   }
 
+  showText(){
+    this.isReadMore != this.isReadMore;
+  }
 }

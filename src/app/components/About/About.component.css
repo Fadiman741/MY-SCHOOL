@@ -57,16 +57,29 @@
     padding: 50px;
     
 }
-
+fa-icon{
+    font-size: 120px;
+    text-align: center;
+    padding-left: 30%;
+    color: rgb(35, 164, 173);
+}
 .about-content1 {
     width: 50%;
     padding: 50px;
+    margin:40px;
     text-align: justify;
+
+}
+.about-content1 h1{
+    color: rgb(35, 164, 173);
+    font-weight: 800;
+    text-align: center;
+    font-size: 45px;
 }
 
 .about-content2 {
     width: 50%;
-    padding: 50px;
+    padding-top: 50px;
     text-align: justify;
 }
 

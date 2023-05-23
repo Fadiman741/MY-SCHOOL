@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { faLayerGroup,faAddressCard,faUsers} from '@fortawesome/free-solid-svg-icons';
+
+
 
 @Component({
   selector: 'app-About',
@@ -7,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   breadCrumbItems: Array<{}> = [];
+  faAddressCard=  faAddressCard
+  faUsers=faUsers;
   constructor() { }
 
   ngOnInit() {

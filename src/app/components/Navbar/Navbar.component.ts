@@ -1,5 +1,5 @@
 import { Component, OnInit,ViewChild } from '@angular/core';
-import { SignupComponent } from '../modals/signup/signup.component';
+
 import { Router } from '@angular/router';
 import { faUser} from '@fortawesome/free-solid-svg-icons';
 
