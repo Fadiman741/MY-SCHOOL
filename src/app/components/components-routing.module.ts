@@ -11,6 +11,8 @@ import {TutorlistComponent} from './tutors-list/tutors-list.component';
 import {PageNotfoundComponent} from './page-notfound/page-notfound.component';
 import {DiscusionForumComponent} from './discusion-forum/discusion-forum.component';
 
+import {InboxComponent} from './inbox/inbox.component'
+
 
 const routes: Routes = [
         { path: '', component: HomepageComponent },
@@ -20,7 +22,7 @@ const routes: Routes = [
         { path:'tutors', component:TutorlistComponent},
        // { path: '**' , component:PageNotfoundComponent},
         { path:'forum', component:DiscusionForumComponent},
-        
+        { path: 'inbox' , component:InboxComponent}
 
 ];
 

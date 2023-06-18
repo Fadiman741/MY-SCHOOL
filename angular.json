@@ -9,7 +9,9 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      
       "architect": {
+        
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
@@ -58,6 +60,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "myschool:build",
+            "proxyConfig": "src/proxy.conf.json"
+            },
           "configurations": {
             "production": {
               "browserTarget": "myschool:build:production"
@@ -92,6 +98,7 @@
             "scripts": []
           }
         }
+
       }
     }
   },
