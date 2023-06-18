@@ -26,13 +26,11 @@ export class AnnouncementsComponent implements OnInit {
     this.apiservice.getAllAnnouncements().subscribe(
       data => {
         this.announcements = data;
+        console.log(this.announcements);
       },
       error => {
         console.log(error);
       }
     );
-
-    console.log(this.announcements);
-    console.log("Hello world");
   }
 }
