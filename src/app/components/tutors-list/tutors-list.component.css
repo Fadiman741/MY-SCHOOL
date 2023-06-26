@@ -1,12 +1,15 @@
 .tutor-card{
-        margin:5% 2% 2% 2%;
+        margin:auto;
         border-radius: 20px;
      
-        width:350px;
-        /* height:600px; */
+        min-width:340px;
+        max-width:400px ;
         background-color:white;
         box-shadow: 10px 2px 50px 10px #ddd;
+        margin-top: 12%;
 }
+
+
 .cover-picture{
         width: 90%;
         height: 300px;
