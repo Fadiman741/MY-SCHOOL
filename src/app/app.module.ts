@@ -8,6 +8,7 @@ import {ComponentsModule} from './components/components.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {HttpClientModule} from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -17,7 +18,8 @@ import {HttpClientModule} from '@angular/common/http';
     AppRoutingModule,
     ComponentsModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
  
   providers: [],

@@ -3,7 +3,7 @@
         border-radius: 20px;
      
         width:350px;
-        height:600px;
+        /* height:600px; */
         background-color:white;
         box-shadow: 10px 2px 50px 10px #ddd;
 }

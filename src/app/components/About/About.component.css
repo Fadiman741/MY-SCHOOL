@@ -117,6 +117,18 @@ fa-icon{
         width: 100%;
         display: block;
     }
+    .about1 {
+        display: flex;
+        padding: 50px;
+        flex-direction: column;
+    }
+    .about-content2 {
+        width: 100%;
+    }
+    .about-content1 {
+        width: 100%;
+        margin:0px;
+    }
 
     
 }
