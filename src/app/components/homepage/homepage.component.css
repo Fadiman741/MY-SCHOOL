@@ -82,16 +82,12 @@
     .div1  {
         width: 94%;
         margin: 3%;
-
     }
-    
     .div2 {
         display: none;
     }
-    
     .div3 {
         display: none;
-
     }
     .div1 p {
         padding-top: 0px;
@@ -99,11 +95,8 @@
     .bottom {
         padding: 25px;
     border-radius: 10px;
-
-       
     }
     .intro-content {
-
         margin: 10px;
         border-radius: 10px;
     }
