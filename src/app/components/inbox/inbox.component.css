@@ -7,6 +7,9 @@
         border:1px solid #eee  ;
 
       }
+      .inbox{
+        display: flex;
+      }
 
       
       .discussions {
@@ -151,6 +154,9 @@
 
       .chat {
         width: 65%;
+        border-left: 1px solid #eee;
+        height: 70vh;
+
       }
 
 
@@ -313,5 +319,6 @@
           .chat {
               display:none;
           }
+          
 
       }  

@@ -1,5 +1,7 @@
 import { Component, OnInit ,Input} from '@angular/core';
 import { faLayerGroup,faEnvelope,faBell} from '@fortawesome/free-solid-svg-icons';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-pagetiltle',
@@ -20,9 +22,13 @@ export class PagetiltleComponent implements OnInit {
   faBell=faBell;
 
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {
   }
+  viewInbox(){
+    this.router.navigate(['/inbox']);
+  }
+
 
 }

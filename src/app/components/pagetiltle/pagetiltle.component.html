@@ -4,11 +4,9 @@
             <div style="display: flex;">
                 <!-- <h5>{{title}}</h5> -->
                 <div class="nav-item dropdown">
-                    <a class="dropdown-item" routerLink="signin">
-                        <button class="button" data-bs-toggle="dropdown" type="button" class="btn btn-primary">
+                        <button (click)="viewInbox()"  type="button" class="btn btn-primary">
                             Inbox <span class="badge ">9</span>
                         </button>
-                    </a>
                 </div>
                 
                 <div class="nav-item dropdown">
