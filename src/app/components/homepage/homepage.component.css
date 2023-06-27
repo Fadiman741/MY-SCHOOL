@@ -8,7 +8,6 @@
     background-size: cover;
     border-radius: 30px;
 }
-
 .intro-content h1 {
     padding-top: 130px;
     color: #fff;
@@ -17,12 +16,10 @@
     max-width: 900px;
     margin: auto;
 }
-
 .intro-content p {
     padding-top: 30px;
     color: #fff;
 }
-
 .intro-charts {
     /* background-image: url('https://media.istockphoto.com/id/975763512/vector/beige-seamless-textured-pattern.jpg?s=612x612&w=0&k=20&c=WRhFZcIGnAw65PFeLXMNLwe7f6D-KzdDrwziF0ub4ng='); */
     padding: 10px;
@@ -36,25 +33,21 @@
     display: flex;
     justify-content: space-evenly;
 }
-
 .div1 p {
     padding-top: 20px;
     color: #fff;
 }
-
 .div2 h2 {
     text-align: center;
     color: #fff;
     font-weight: 800;
 }
-
 .div3 p {
     padding-top: 20px;
     color: #fff;
     
 
 }
-
 .bottom {
     padding: 20px;
     margin: 1%;

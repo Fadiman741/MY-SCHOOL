@@ -1,29 +1,23 @@
-body {
-        padding: 5%;
-        background-color: #F5F5F5;
-      }
-      
+
       .container {
         padding:0;
         background-color: #FFF; 
-        box-shadow: 0 10px 20px rgba(173, 171, 171, 0.19);
+        box-shadow: 0 0 3px 1px rgba(173, 171, 171, 0.19);
         height: 70vh;
+        border:1px solid #eee  ;
+
       }
 
-      /* === CONVERSATIONS === */
       
       .discussions {
         width: 35%;
-        height: 70vh;
-
-        /* box-shadow: 0px 8px 10px rgba(0,0,0,0.20); */
+        /* height: 70vh; */
+        border:1px solid #eee  ;
         overflow: hidden;
-        /* background-color: rgb(35, 164, 173) ; */
-        display: inline-block;
       }
       
       .discussions .discussion {
-        width: 100%;
+        /* width: 100%; */
         height: 90px;
         background-color: #FAFAFA;
         border-bottom: solid 1px #E0E0E0;
@@ -86,8 +80,7 @@ body {
           width: 45px;
           height: 45px;
           background: #E6E7ED;
-          -moz-border-radius: 50px;
-          -webkit-border-radius: 50px;
+          border-radius: 50%;
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
@@ -107,28 +100,24 @@ body {
       .desc-contact {
         height: 43px;
         width:60%;
-        white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
       }
       
       .discussions .discussion .name {
         margin: 0 0 0 20px;
-        /* font-family:'Montserrat', sans-serif; */
         font-size: 11pt;
         color:#515151;
       }
       
       .discussions .discussion .message {
         margin: 6px 0 0 20px;
-        /* font-family:'Montserrat', sans-serif; */
         font-size: 9pt;
         color:#515151;
       }
       
       .timer {
         margin-left: 10%;
-        /* font-family:'Open Sans', sans-serif; */
         font-size: 9px;
         padding: 3px 8px;
         color: #BBB;
@@ -136,11 +125,37 @@ body {
         border: 1px solid #E5E5E5;
         border-radius: 15px;
       }
-      
-      /* .chat {
-        width: calc(65% - 85px);
-      } */
-      
+      @media screen and (max-width: 600px) {
+        .discussions {
+          width: 100%;
+        }
+        .inbox{
+          margin:2%
+        }
+        br{
+          display: none;
+        }
+        .container {
+          height: 85vh;
+        }
+      }  
+
+
+
+
+
+
+
+
+
+
+      .chat {
+        width: 65%;
+      }
+
+
+
+/*       
       .header-chat {
         background-color: #FFF;
         height: 90px;
@@ -170,7 +185,7 @@ body {
       
       /* .chat .messages-chat {
         padding: 25px 35px;
-      } */
+      } 
       
       .chat .messages-chat .message {
         display:flex;
@@ -216,7 +231,7 @@ body {
       .response {
         float: right;
         margin-right: 0px !important;
-        margin-left:auto; /* flexbox alignment rule */
+        margin-left:auto; 
       }
       
       .response .text {
@@ -292,4 +307,11 @@ body {
       
       .clickable {
         cursor: pointer;
-      }
+      } */
+
+      @media screen and (max-width: 600px) {
+          .chat {
+              display:none;
+          }
+
+      }  

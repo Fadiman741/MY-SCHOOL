@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {AppRoutingModule} from './components-routing.module';
 import { GradesModule } from './grades/grades.module';
+import {AuthRoutingModule} from './auth/auth-routing.module';
+
 // import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 
 import { AuthModule} from './auth/auth.module';
@@ -26,6 +28,8 @@ import {InboxComponent} from './inbox/inbox.component';
     FlexLayoutModule,
     AppRoutingModule,
     GradesModule,
+    AuthRoutingModule,
+    
     // MdbCheckboxModule,
     
 
