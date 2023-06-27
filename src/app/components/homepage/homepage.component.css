@@ -71,7 +71,7 @@
         padding-top: 70px;
         padding-left: 20px;
         padding-right: 20px;
-        font-size: 40px;
+        font-size: 38px;
     }
     .intro-charts {
         /* width: 100%; */
@@ -97,7 +97,15 @@
         padding-top: 0px;
     }
     .bottom {
-        padding: 20px;
+        padding: 25px;
+    border-radius: 10px;
+
        
     }
+    .intro-content {
+
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
 }
