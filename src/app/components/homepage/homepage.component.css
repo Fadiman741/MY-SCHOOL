@@ -66,4 +66,38 @@
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    .intro-content h1 {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 35px;
+    }
+    .intro-charts {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        height: none;
+    }
+    .div1  {
+        width: 94%;
+        margin: 3%;
+
+    }
+    
+    .div2 {
+        display: none;
+    }
+    
+    .div3 {
+        display: none;
+
+    }
+    .div1 p {
+        padding-top: 0px;
+    }
+    .bottom {
+        padding: 20px;
+       
+    }
+}
