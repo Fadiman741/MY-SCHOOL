@@ -12,6 +12,7 @@ import {PageNotfoundComponent} from './page-notfound/page-notfound.component';
 import {DiscusionForumComponent} from './discusion-forum/discusion-forum.component';
 
 import {InboxComponent} from './inbox/inbox.component'
+import { NotificationsComponent } from './notifications/notifications.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
         { path:'tutors', component:TutorlistComponent},
        // { path: '**' , component:PageNotfoundComponent},
         { path:'forum', component:DiscusionForumComponent},
-        { path: 'inbox' , component:InboxComponent}
+        { path: 'inbox' , component:InboxComponent},
+        { path: "notifications", component:NotificationsComponent}
 
 ];
 

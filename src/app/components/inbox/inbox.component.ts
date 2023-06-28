@@ -13,7 +13,7 @@ export class InboxComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.breadCrumbItems = [{ label: 'Home' }, { label: 'Annoucement', active: true }];
+    this.breadCrumbItems = [{ label: 'Home' }, { label: 'Inbox', active: true }];
 
   }
 

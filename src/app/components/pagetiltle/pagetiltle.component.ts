@@ -29,6 +29,10 @@ export class PagetiltleComponent implements OnInit {
   viewInbox(){
     this.router.navigate(['/inbox']);
   }
+  viewNotifications(){
+    this.router.navigate(['/notifications']);
+  }
+
 
 
 }

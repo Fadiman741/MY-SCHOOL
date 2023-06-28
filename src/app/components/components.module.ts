@@ -21,6 +21,7 @@ import {TutorlistComponent} from './tutors-list/tutors-list.component';
 import {PageNotfoundComponent} from './page-notfound/page-notfound.component';
 import {DiscusionForumComponent} from './discusion-forum/discusion-forum.component';
 import {InboxComponent} from './inbox/inbox.component';
+import { NotificationsComponent } from './notifications/notifications.component';
 
 @NgModule({
   imports: [
@@ -47,8 +48,9 @@ import {InboxComponent} from './inbox/inbox.component';
     TutorlistComponent,
     PageNotfoundComponent,
     DiscusionForumComponent,
-    InboxComponent
+    InboxComponent,
+    NotificationsComponent
   ],
-  exports:[NavbarComponent,HomepageComponent,AboutComponent,TopNavComponent,PagetiltleComponent,TutorsComponent,TutorlistComponent,PageNotfoundComponent,DiscusionForumComponent,InboxComponent]
+  exports:[NavbarComponent,HomepageComponent,AboutComponent,TopNavComponent,PagetiltleComponent,TutorsComponent,TutorlistComponent,PageNotfoundComponent,DiscusionForumComponent,InboxComponent,NotificationsComponent]
 })
 export class ComponentsModule { }

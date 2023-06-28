@@ -15,6 +15,9 @@ h5{
 a{
     list-style-type: none;
 }
+ul{
+    width: 350px;
+}
 
 fa-icon{
     font-size: 15px;
