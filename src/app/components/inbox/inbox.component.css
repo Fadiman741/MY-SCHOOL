@@ -21,7 +21,7 @@
       
       .discussions .discussion {
         /* width: 100%; */
-        height: 90px;
+        height: 80px;
         background-color: #FAFAFA;
         border-bottom: solid 1px #E0E0E0;
         display:flex;
@@ -70,8 +70,8 @@
       }
       
       .discussions .message-active {
-        width: 98.5%;
-        height: 90px;
+        /* width: 98.5%; */
+        height: 80px;
         background-color: #FFF;
         border-bottom: solid 1px #E0E0E0;
       }
