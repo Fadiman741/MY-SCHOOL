@@ -8,7 +8,7 @@
 .create-post button{
         background-color: rgb(35, 164, 173);
         border: none;
-        height: 30px;
+        height: 33px;
         color: #fff;
         width:100px;
         border-radius: 4px;
@@ -29,7 +29,6 @@
         margin: 10px;
         padding: 10px;
         border: 1px solid #eee;
-        
         /* border: 1px solid rgb(35, 164, 173); */
         border-radius: 5px;
     }
@@ -71,7 +70,23 @@
     }
     
     .reaction span {
-        padding-right: 5px;
+        padding-right: 2px;
         color:rgb(35, 164, 173);
 
     }
+    ul{
+        margin-top: -10px;
+        margin-bottom: -5px;
+
+    }
+    @media screen and (max-width: 600px) {
+        .announcement1 p {
+            font-size: small;
+         }
+         ul{
+            font-size: small;
+    
+        }
+
+      }  
+
