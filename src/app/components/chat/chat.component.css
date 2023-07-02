@@ -5,27 +5,27 @@
         border-left: 1px solid #eee;
         border-right: 1px solid #eee;
 
-        height: 83vh;
+        height: 80vh;
         /* border: 1px solid #ccc; */
 
 
 }
 .header-chat {
         background-color: rgb(35, 164, 173);
-        height:50px;
+        height:35px;
         /* box-shadow: 0px 3px 2px rgba(0,0,0,0.100); */
         display:flex;
         align-items: center;
 }
-.chat .header-chat .icon {
+.header-chat .icon {
         margin-left: 30px;
         color:#515151;
         font-size: 14pt;
 }
-.chat .header-chat .name {
+.header-chat .name {
         margin: 0 0 0 20px;
-        text-transform: uppercase;
-        font-family:'Montserrat', sans-serif;
+        /* text-transform: uppercase; */
+        /* font-family:'Montserrat', sans-serif; */
         font-size: 13px;
         color:#fff;
 }
