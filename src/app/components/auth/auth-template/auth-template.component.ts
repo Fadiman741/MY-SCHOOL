@@ -9,14 +9,14 @@ import { Router } from '@angular/router';
 })
 export class AuthTemplateComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  breadCrumbItems: Array<{}> = [];
+  isReadMore: true = true;
+
+  constructor() { }
 
   ngOnInit() {
+    this.breadCrumbItems = [{ label: 'Home' }, { label: 'Inbox', active: true }];
+
   }
-  openLogin(){
-    this.router.navigate(['./signin']);
-  }
-  openSignup(){
-    this.router.navigate(['./signup']);
-  }
+
 }

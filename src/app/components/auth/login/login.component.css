@@ -1,27 +1,27 @@
 input{
         width:100%;
         max-width: 500px;
-              
         margin-right:5%; 
         margin-bottom: 6%;
         padding-top:5px;
         padding-bottom:5px;
         padding-left: 15px;
         border: none;
-        border-radius: 10px;
+        border-radius: 6px;
 }
 form{
-        margin:5%
+        margin:5%;
+        padding-top:60px
 }
 label{
         color: #fff;
         font-weight: 400;
+        text-align: left;
 }
 span{
         text-align: right;
         color: rgb(36, 44, 158);
         font-size: small;
-
 }
 .login-btn input{
         background-color: rgb(20, 95, 100) ;

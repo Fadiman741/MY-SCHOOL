@@ -13,7 +13,7 @@ const routes: Routes = [
                 {path:'',redirectTo:'signin',pathMatch:'full'},
                 { path: 'signin', component: LoginComponent  },
                 { path: 'signup', component: SignupComponent }
-            ]}
+                ]}
 ];
 @NgModule({
         imports: [RouterModule.forRoot(routes)],

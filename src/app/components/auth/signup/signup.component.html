@@ -1,3 +1,5 @@
+<br>
+
 <div style="margin:auto;max-width: 400px;">
   <div>
     <form>
@@ -7,8 +9,16 @@
       <input type="text" placeholder="LastName">
       <label for="email">Email : </label>
       <input type="text" placeholder="Email">
-      <label for="email">LastName : </label>
-      <input type="text" placeholder="LastName">
+      <label for="email">Register as : </label>
+      <select name="" id="cars">
+        <option value="None">Default Selection</option>
+        <option value="Teacher">Teacher</option>
+        <option value="Tutor">Tutor</option>
+        <option value="Student">Student</option>
+        <option value="Institution">Institution</option>
+      </select>
+      <!-- <label for="email">LastName : </label>
+      <input type="text" placeholder="LastName"> -->
       <label for="email">Password : </label>
       <input type="text" placeholder="********">
       <label for="email">Repeat Password : </label>
@@ -19,7 +29,7 @@
       </div>
     </form>
     <div class="text-center sign-up">
-      Already have an account ? <a [routerLink]="['/signin']">Sign In</a>  here.
+      Already have an account ? <a [routerLink]="['/auth/signin']">Sign In</a>  here.
     </div>
     
   </div>
