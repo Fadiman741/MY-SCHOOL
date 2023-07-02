@@ -13,6 +13,7 @@ import {DiscusionForumComponent} from './discusion-forum/discusion-forum.compone
 
 import {InboxComponent} from './inbox/inbox.component'
 import { NotificationsComponent } from './notifications/notifications.component';
+import { ChatComponent } from './chat/chat.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,8 @@ const routes: Routes = [
        // { path: '**' , component:PageNotfoundComponent},
         { path:'forum', component:DiscusionForumComponent},
         { path: 'inbox' , component:InboxComponent},
-        { path: "notifications", component:NotificationsComponent}
+        { path: "notifications", component:NotificationsComponent},
+        { path: "chat", component:ChatComponent}
 
 ];
 

@@ -22,6 +22,7 @@ import {PageNotfoundComponent} from './page-notfound/page-notfound.component';
 import {DiscusionForumComponent} from './discusion-forum/discusion-forum.component';
 import {InboxComponent} from './inbox/inbox.component';
 import { NotificationsComponent } from './notifications/notifications.component';
+import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
   imports: [
@@ -49,8 +50,9 @@ import { NotificationsComponent } from './notifications/notifications.component'
     PageNotfoundComponent,
     DiscusionForumComponent,
     InboxComponent,
-    NotificationsComponent
+    NotificationsComponent,
+    ChatComponent
   ],
-  exports:[NavbarComponent,HomepageComponent,AboutComponent,TopNavComponent,PagetiltleComponent,TutorsComponent,TutorlistComponent,PageNotfoundComponent,DiscusionForumComponent,InboxComponent,NotificationsComponent]
+  exports:[NavbarComponent,HomepageComponent,AboutComponent,TopNavComponent,PagetiltleComponent,TutorsComponent,TutorlistComponent,PageNotfoundComponent,DiscusionForumComponent,InboxComponent,NotificationsComponent,ChatComponent]
 })
 export class ComponentsModule { }
